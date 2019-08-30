@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:gravity="center_vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".view.SettingActivity">
+
+
+    <Switch
+        android:id="@+id/release_switch"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Release Reminder" />
+
+    <Switch
+        android:id="@+id/daily_switch"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/release_switch"
+        android:text="Daily Reminder" />
+
+    <Button
+        android:id="@+id/btn_change_language"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/daily_switch" />
+
+</RelativeLayout>

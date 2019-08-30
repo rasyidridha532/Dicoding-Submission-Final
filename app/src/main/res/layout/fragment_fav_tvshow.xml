@@ -1,0 +1,39 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_tvshow_db"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context="com.example.moviecataloguestorage.fragment.FavTVShowFragment">
+
+    <androidx.swiperefreshlayout.widget.SwipeRefreshLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/sw_fav_tvshow">
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rv_tvshow_db"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+        </androidx.recyclerview.widget.RecyclerView>
+
+    </androidx.swiperefreshlayout.widget.SwipeRefreshLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_empty"
+        android:layout_centerInParent="true"
+        android:textAlignment="center"
+        android:text="@string/no_data"
+        android:textStyle="bold"
+        android:drawableTop="@drawable/empty"/>
+
+    <ProgressBar
+        android:id="@+id/progress_bar"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"/>
+
+</RelativeLayout>

@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Favorite</string>
+    <string name="no_data">No Data Available</string>
+    <string name="title_activity_detail_movie">Detail Movie</string>
+    <string name="title_activity_detail_tvshow">Detail TV Show</string>
+    <string name="movie">Movie</string>
+    <string name="tvshow">TV Show</string>
+    <string name="title_activity_main">Favorite</string>
+</resources>

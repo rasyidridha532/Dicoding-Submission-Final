@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Favorit</string>
+    <string name="no_data">Tidak Ada Data</string>
+    <string name="title_activity_detail_movie">Detail Film</string>
+    <string name="title_activity_detail_tvshow">Detail Serial TV</string>
+    <string name="movie">Film</string>
+    <string name="tvshow">Serial TV</string>
+</resources>

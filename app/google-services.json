@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "809625044670",
+    "firebase_url": "https://fir-notif-movie.firebaseio.com",
+    "project_id": "fir-notif-movie",
+    "storage_bucket": "fir-notif-movie.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:809625044670:android:418fb6f05f1e530c",
+        "android_client_info": {
+          "package_name": "com.example.moviecataloguestorage"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "809625044670-angpo96atfshjnai9q7v1na5b8s8hf3s.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.moviecataloguestorage",
+            "certificate_hash": "dbf8e331d55d3b4edf97c77b1840748799e296e0"
+          }
+        },
+        {
+          "client_id": "809625044670-kl1f2ogbvs2cj4k43nfta18tb71rjvnp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAqPDF0_m5X6TptTMvdgztNZjsZt0S1YTc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "809625044670-kl1f2ogbvs2cj4k43nfta18tb71rjvnp.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
